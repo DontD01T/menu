@@ -13,17 +13,25 @@
     justify-content: center;
     align-items: center;
     background-color: #A0A0A0;
+    overflow: hidden; /* Prevents scrolling */
   }
 
   #page1-div {
     position: relative;
-    width: 918px;
-    height: 1512px;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 </style>
+
 </head>
 <body bgcolor="#A0A0A0" vlink="blue" link="blue">
 <div id="page1-div" style="position:relative;width:918px;height:1512px;">
